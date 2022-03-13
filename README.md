@@ -51,3 +51,12 @@ The code for the simulation can be found in this repo and can be used like so:
 2. run script with `python inference.py`
 
 I also added the result graphics to the repo in case you cannot execute the program.
+
+## Task 3 - Discussion of the results
+
+in the picture created by the simulation, one can see, that the larger the prevalence gets, the less significance has the specificity.
+In general, it should be no surprise, that the tests, having a higher specificity perform better and have a faster convergence to a high
+posterior value P(Infected | test-positive). 
+
+Despite the fact that we know Bayes rule, it is surprising for the human mind how much difference 99.0 and 99.9 can make when it comes
+to probability.
